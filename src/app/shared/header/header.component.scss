@@ -1,0 +1,96 @@
+.header-container {
+  height: 250px;
+  background: linear-gradient(to bottom, #b041ff, #7033ff);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  .header {
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    .header-icon span {
+      padding: 0.5em;
+      font-size: 1.1em;
+    }
+
+    .header-title h1 {
+      font-weight: inherit;
+      font-size: 1.4em;
+      transition: all 300ms;
+      &:hover {
+        cursor: pointer;
+        font-size: 1.5em;
+      }
+    }
+
+    .header-settings span {
+      padding: 0.5em;
+      font-size: 1.1em;
+    }
+
+    i {
+      font-weight: bold;
+      transition: all 300ms;
+      &:hover {
+        cursor: pointer;
+        font-size: 1.2em;
+      }
+    }
+  }
+
+  .main-card {
+    margin-bottom: -2em;
+    padding: 1.2em;
+    width: 92%;
+    height: 230px;
+    background-color: #ffffff;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    color:#808080;
+    font-size: 14px;
+
+    .title-container {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: start;
+        gap: 1em;
+        
+        .title{
+            width: 75%;
+        }
+
+        .title h2{
+            font-weight: 500;
+        }
+
+        .description div{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: .5em;
+            i{
+                font-size: 2em;
+                color: #19a519;
+            }
+
+            span{
+                text-align: right;
+            }
+        }
+    }
+  }
+
+  margin-bottom: 3em;
+}
